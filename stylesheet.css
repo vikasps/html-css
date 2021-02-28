@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .logo {
+    
+    font-size: 28px;
+} */
+
+.nav-text-color {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+
+}
+
+.button {
+    border: 1px solid white;
+    padding: 1px;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color: #65CD00;
+}
+
+li a {
+    display: block;
+    color: black;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+
+.header {
+    background-color: #65CD00;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+
+.page__heading {
+    line-height: 60px;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 18px;
+}
+
+.page__text__parent {
+    display: flex;
+    justify-content: center;
+}
+
+.page__text {
+    width: 50%;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+.features-section {
+    text-align: center;
+}
+
+.features__heading {
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.underline {
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #65CD00;
+}
+
+.features__card__sec {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {}
+
+.card__heading {
+    text-align: center;
+    font-weight: 400;
+}
+
+.card__text {
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+}

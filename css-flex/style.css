@@ -1,0 +1,41 @@
+.view-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+
+}
+
+.upload {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-header {
+    text-align: center;
+}
+
+.header-segment {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.process-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

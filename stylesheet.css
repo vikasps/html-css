@@ -6,13 +6,9 @@ body {
 }
 
 /* .logo {
-    
+
     font-size: 28px;
 } */
-
-.nav-text-color {
-    color: white;
-}
 
 ul {
     list-style-type: none;
@@ -22,8 +18,13 @@ ul {
     display: flex;
     justify-content: flex-end;
     font-size: 14px;
-
+    color: white;
 }
+
+.nav-text-color {
+    color: white;
+}
+
 
 .button {
     border: 1px solid white;
@@ -117,4 +118,13 @@ li a:hover {
     font-weight: 300;
     line-height: 25px;
     text-align: center;
+}
+
+.image-section {
+    margin-top: 20px;
+
+}
+
+.installation-link {
+    justify-content: space-evenly;
 }

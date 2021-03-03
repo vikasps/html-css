@@ -1,0 +1,180 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #65CD00;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo {
+    /* margin-right: 50px; */
+    padding-left: 20px;
+}
+
+.nav-bar-left {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+
+    justify-content: flex-end;
+}
+
+.nav-bar-right {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar-right li {
+    margin: 10px;
+}
+
+.nav-bar-button {
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #65CD00;
+    border: 1px solid white;
+    color: white;
+}
+
+.header-content {
+    height: 200px;
+    /* text-align: center; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header-content p {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    /* width: 50%; */
+    /* margin: 0 200px */
+    padding: 0 200px;
+}
+
+.header-content h1 {
+    font-size: 90px;
+}
+
+.features {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.features-heading {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #65CD00;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.responsive-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.responsive-design img {
+    height: auto;
+    width: 25px;
+}
+
+
+.quick-install {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
+}
+
+.installation-button {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.install {
+
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.install-content {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 10px;
+
+
+}
+
+.install-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.install-images {}
+
+.service {}
+
+.service-header {
+    font-size: 30px;
+    background-color: pink;
+    border-bottom: 2px solid #65CD00;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.service-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+.service-contents-top {
+    display: flex;
+}
+
+.service-contents-bottom {
+    display: flex;
+}
+
+.service-card {
+    text-align: center;
+}

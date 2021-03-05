@@ -291,24 +291,62 @@ header {
 
 .about-us-heading {
     display: flex;
-    width: 30%;
-    display: flex;
+    justify-content: center;
+    margin-top: -40px;
 }
 
-.about-us-heading h3 {}
+.about-us-heading p {
+    font-size: 40px;
+    border-bottom: 1px solid green;
+    padding-bottom: 25px;
+}
 
 .about-marketing {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .marketing-pic {
     width: 25%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-     */
+    justify-content: space-between;
+
     align-items: center;
     text-align: center;
-    padding: ;
+}
+
+.testimonial {
+    text-align: center;
+    background-color: #65CD00;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.testimonial-head {
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 1px;
+    font-size: 30px;
+}
+
+.testimonial-para {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+
+
+.social-media-image {
+    width: 30px;
+    height: auto;
+    padding-bottom: 20px;
 }

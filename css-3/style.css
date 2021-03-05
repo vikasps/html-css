@@ -107,7 +107,6 @@ header {
     width: 25px;
 }
 
-
 .quick-install {
     display: flex;
     flex-direction: row;
@@ -117,18 +116,23 @@ header {
     border-bottom: 1px solid #ddd
 }
 
+.mac-image {
+    margin-left: 50px;
+}
+
 .installation-button {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 50px;
+    margin-right: 60px;
 }
 
 .install {
 
     display: flex;
     align-items: flex-start;
-
-
+    margin-right: 250px;
 }
 
 .install-content {
@@ -137,8 +141,10 @@ header {
     flex-direction: column;
     margin-left: 25px;
     margin-bottom: 10px;
+}
 
-
+.install-content p {
+    font-size: larger;
 }
 
 .install-content h3 {
@@ -151,12 +157,15 @@ header {
 .service {}
 
 .service-header {
+    text-align: center;
+}
+
+.service-header p {
     font-size: 30px;
-    background-color: pink;
+
     border-bottom: 2px solid #65CD00;
     display: inline-block;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .service-contents {
@@ -164,7 +173,6 @@ header {
     flex-direction: column;
     margin: 0 auto;
     width: 75%;
-
 }
 
 .service-contents-top {
@@ -177,4 +185,130 @@ header {
 
 .service-card {
     text-align: center;
+}
+
+.call-of-action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./assets/call-us-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+}
+
+.call-of-action h2 {
+    border-bottom: 2px solid green;
+    display: inline-block;
+}
+
+.bg-image {
+    width: 600px;
+    height: auto;
+}
+
+.price-table {
+    text-align: center;
+}
+
+.price-table-heading p {
+    font-size: 30px;
+    border-bottom: 2px solid green;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.price-table-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price-table-cards-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.price-table-cards-content ul {
+    margin-left: 0px;
+    width: 30%;
+}
+
+
+.price-table-cards-content li {
+    padding: 15px;
+    list-style: none;
+    /* border-bottom: solid 2px yellow; */
+}
+
+
+.salary-amount {
+    background-color: #EEEEEE;
+}
+
+.salary {
+    font-size: 80px;
+}
+
+.level {
+    font-size: 30px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #eee;
+
+}
+
+.level-type {
+    background-color: #E8E8E8;
+}
+
+.price-table-requirement {
+    background-color: #F8F8F8;
+
+}
+
+.price-table-requirement li {
+    border-bottom: 1px solid #eee;
+}
+
+
+.sign-up {
+    /* border: steelblue solid 2px;
+    padding: 16px 20px 0 20px;
+    height: 50px; */
+
+    font-size: 16px;
+    /* height: 50px; */
+    border-radius: 5px;
+    padding: 16px 20px;
+    background: #61C103;
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+
+.about-us-heading {
+    display: flex;
+    width: 30%;
+    display: flex;
+}
+
+.about-us-heading h3 {}
+
+.about-marketing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marketing-pic {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+     */
+    align-items: center;
+    text-align: center;
+    padding: ;
 }

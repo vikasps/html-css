@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+footer {
+    background-color: #FFF4D6;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.co-operate-footer-left {
+    display: flex;
+    border-right: solid 1px black;
+
+}
+
+.description {
+    /* padding-left: 30%; */
+    /* width: 50%; */
+}
+
+.description h3 {
+    font-size: larger;
+}
+
+.site-detail {
+    height: 125px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.description-text {
+    width: 200px;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0 20px;
+
+}
+
+/*
+.co-operate-right {
+    width: 60%;
+} */
+
+
+.company-detailing {
+    display: flex;
+}
+
+ul.footer-detail li:first-child {
+
+    font-size: 20px;
+}
+
+.footer-detail {
+    list-style-type: none;
+}
+
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copy-right {
+    margin-top: 10px;
+    text-align: center;
+}

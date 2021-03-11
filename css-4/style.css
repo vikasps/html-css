@@ -175,7 +175,40 @@ ul.footer-detail li:first-child {
     width: 30%;
 }
 
-.strategy-right {}
+.strategy-right {
+    position: relative;
+}
+
+.strategy-pic-1 {
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    /* bottom: -50px; */
+    bottom: 100px;
+}
+
+.strategy-pic-2 {
+    width: 150px;
+    position: absolute;
+    z-index: 3;
+    /* bottom: -590px;
+    right: 315px; */
+    bottom: 45px;
+    left: 80px;
+
+}
+
+.strategy-pic-3 {
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    /* top: 1030px;
+    right: 275px; */
+    left: 90px;
+    bottom: 143px;
+}
+
+
 
 .strategy-detailing {
 
@@ -216,29 +249,6 @@ ul.footer-detail li:first-child {
     padding: 0;
 }
 
-.strategy-pic-1 {
-    width: 150px;
-    position: relative;
-    z-index: 2;
-    bottom: -50px;
-}
-
-.strategy-pic-2 {
-    width: 150px;
-    position: absolute;
-    z-index: 3;
-    bottom: -590px;
-    right: 315px;
-}
-
-.strategy-pic-3 {
-    width: 150px;
-    position: absolute;
-    z-index: 1;
-    top: 1030px;
-    right: 275px;
-}
-
 .card-subtitles {
     display: flex;
     justify-content: center;
@@ -258,6 +268,7 @@ ul.footer-detail li:first-child {
     width: 250px;
 }
 
+/* company-brief section starts here */
 .partner {
     background-color: #FFF4D6;
     /* display: flex;
@@ -267,7 +278,7 @@ ul.footer-detail li:first-child {
 }
 
 .partner-header-content {
-    width: 75%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -284,24 +295,97 @@ ul.footer-detail li:first-child {
 }
 
 .company-brief {
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    width: 75%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 200px;
+    /* font-size: 13px;
+    margin-bottom: 20px; */
 }
 
 .company-brief-left {
-    width: 22%;
-    height: 20%;
+
     padding-right: 10px;
-    border-right: 1px solid black
+    border-right: 1px solid black;
 }
 
 .company-brief-right {
-    width: 24%;
-    height: 20%;
-    padding-left: 30px;
+
+    padding-left: 20px;
 }
 
-.company-brief-left .company-brief-right p {}
+.company-brief-left p,
+.company-brief-right p {}
+
+/* company-brief section ends here */
+/* header section starts here  */
+header {
+    background-color: #49B69C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.header-left {
+    width: 42%;
+}
+
+.header-left p {}
+
+.header-left h2 {
+    font-size: 51px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.header-left h2::before {
+    content: ' ';
+    display: block;
+    width: 100px;
+    border-top: 5px solid white;
+    padding-bottom: 10px;
+}
+
+.header-left h2::after {
+    content: ' ';
+    display: block;
+    width: 100px;
+    border-bottom: 5px solid white;
+}
+
+.header-right {
+    width: 50%;
+    margin: 50px;
+}
+
+.header-image {
+    width: 75%;
+}
+
+/* header section ends here  */
+/* nav-bar starts here */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-button ul li {
+    padding: 0 25px;
+}
+
+.nav-button {
+    /* width: 400px; */
+
+}
+
+/* nav-bar ends here */

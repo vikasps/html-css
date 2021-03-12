@@ -1,0 +1,316 @@
+/* body{
+    display: flex;
+} */
+.section-bar{
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.nav-shrink {
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.nav-shrink-1 {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #D8DADF;
+
+}
+
+.search-bar {
+    width: 103px;
+    height: 20px;
+    border: 0;
+    background-color: #F0F2F5;
+    /* border-radius: 15px;
+    background: #73AD21;
+    padding: 20px;
+    width: 20px;
+    height: 15px; */
+}
+
+.serach-bar-1 {
+    border-radius: 15px;
+    /* border: 1px black solid; */
+    height: 30px;
+    margin-left: 10px;
+    padding-right: 5px;
+    background-color: #F0F2F5;
+    margin-top: 10px;
+
+}
+
+.serach-bar-1::before {
+    top: 6px;
+    content: " ";
+    /* background: darkgrey; */
+    /* border-radius: 15px; */
+    position: relative;
+    left: 5px;
+    background-image: url(./asset/nav-bar/loupe.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 20px;
+    display: inline-block;
+    background-size: 16px;
+    margin-right: -3px;
+}
+
+.nav-right {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.profile-pic {}
+
+.profile-pic-1 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.profile-name {
+    padding: 10px;
+}
+
+.left-side-bar {
+
+    display: inline-block;
+    background-color: #F0F2F5;
+    width: 25%;
+border: 1px solid black;
+}
+
+.pages {
+    border-bottom: 1px solid gray;
+}
+
+.left-side-section {
+    list-style: none;
+    padding-left: 3px;
+}
+
+.left-side-section li {
+    display: flex;
+    padding: 5px;
+}
+
+.left-side-section li img {
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+}
+
+.icon-name {
+    padding: 10px;
+
+}
+
+.short-cut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li span {
+    padding-left: 10px;
+
+}
+.short-cut-group img{
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+
+}
+.short-cut-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.short-cut-header div{
+    margin-left: 140px;
+}
+
+.short-cut-group {
+display: flex;
+font-size: 12px;
+}
+.short-cut-header h4{
+    width: 50%;
+}
+.copy-right{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.center{
+    width: 50%;
+    background-color: #F0F2F5;
+}
+.status-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+}
+.status-card img{
+    width: 125px;
+    height: 225px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.status-card span{
+    font-size: 40px;
+position: relative;
+right: 20px;
+}
+.whats-in-mind{
+
+    border: grey 1px solid;
+    width: 80%;
+    margin-left: 50px;
+}
+.whats-in-mind-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.whats-in-mind-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.whats-in-mind-footer button{
+    width: 30%;
+    display: flex;
+    border-radius: 5px;
+}
+
+
+
+.whats-in-mind-footer button span{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+/* .whats-in-mind-footer img{} */
+
+.create-room{
+display: flex;
+align-items: center;
+}
+.room-contact{
+display: flex;
+}
+.room-contact img{ border-radius: 50%;
+    height: 40px;
+    width: 40px;
+padding: 10px;
+}
+.room-contact button{
+    /* border-radius: 10%;
+    width: 14%;
+    height: auto;
+    margin-left: 30px;
+padding: 10px; */
+
+border-radius: 10%;
+    width: 14%;
+    height: 30px;
+    margin-left: 30px;
+    /* padding: 6px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.right-side-section{
+    display: inline-block;
+    background-color: #F0F2F5;
+    width: 25%;
+    border: 1px solid black;
+}
+.birthday{
+    border-bottom: 1px solid gray;
+}
+
+.birthday div{
+    display: flex;
+    /* justify-content: space-around; */
+    padding
+}
+
+.birthday h3{
+    margin: 0;
+    padding:20px;
+    }
+    .birthday div img{
+        width: 25px;
+        height: 25px;
+    margin-left: 40px;}
+
+
+.birthday div span{
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.contact-header{
+    display: flex;
+padding: 10px;
+    justify-content: space-between;
+}
+
+.contact-list{
+margin-top: 0;
+list-style-type: none;
+/*   */
+}
+.contact-list li{
+    display: flex;
+margin-left: 40px;
+}
+.contact-list li img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+}
+.contact-list li span{
+    margin-left: 55px;
+}
+.contact-footer h4{
+padding: 20px;
+}
+.contact-new-group{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.contact-new-group p {
+margin-left: 10px;
+}

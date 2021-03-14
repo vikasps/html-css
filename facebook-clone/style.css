@@ -209,6 +209,8 @@ right: 20px;
 
 
 .whats-in-mind-footer button:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color:grey ;
 }
 

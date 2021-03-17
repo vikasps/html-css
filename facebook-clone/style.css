@@ -107,7 +107,7 @@ nav {
     display: inline-block;
     background-color: #F0F2F5;
     width: 25%;
-border: 1px solid black;
+
 font-size: 18px;
 }
 
@@ -241,21 +241,20 @@ right: 20px;
 }
 
 .fb-scroll-section{
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
 flex-direction: column;
-    align-items: center;
-    /* background-color: pink; */
+    /* align-items: center; */
 }
 .like-status{
-    width: 85%;
+
     display: flex;
     margin-top: 2px;
-
+    background-color: #FFFFFF;
     /* padding-right: 3px; */
     position: relative;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 .like-status img{
     /* position: absolute;
@@ -274,8 +273,12 @@ flex-direction: column;
 align-items: center; */
 
 display: flex;
-margin-top: 10px;
-width: 516px;
+
+display: flex;
+justify-content:space-evenly;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+
 }
 
 
@@ -286,43 +289,126 @@ width: 516px;
  border-radius: 10px;
  border: none;
  outline: none;
+
 }
+.like-img1{
+    position: relative;
+z-index: 3;
+}
+.like-img2{
+    position: relative;
+right: 5px;
+z-index: 2;
+}
+.like-img3{
+    position: relative;
+right: 5px;
+z-index: 1;
+}
+
 .posting-button:hover {
     background-color: #ccc;
 }
 .comment-section{
+
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
 
 }
 .comment-text {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 10px;
     padding-left: 10px;
+    background-color: #cccc ;
 }
 .comment-section img{
     border-radius: 50%;
     padding-right: 10px;
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-left: 3px;
+    margin-top: 15px;
 }
 .comment-section span{
     font-size: large;
+
 }
 .comment-views{
-    margin-left: 40px;
+
+    display: flex;
+justify-content: flex-start;
     font-size: 16px;
+    background-color: #FFFFFF;
+
+}
+.comment-views p {
+    margin: 5px;
+}
+
+
+
+.commanding-input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px red solid;
+    width: 100%;
+}
+
+.cm-img{
+    width: 10%;
+}
+
+.cmd-img{
+    /* width: 10%; */
+    /* margin: 5px; */
+    height: 10%;
+    border-radius: 50%;
 }
 .comment-bar{
     display: flex;
-position: relative;
-
+    width: 90%;
+    background-color: #cccc;
 }
 
+.cmd-inputbox{
+/* width: 85%; */
+/* position: relative; */
+width: 65%;
+}
+
+.comment-bar-1{
+/* width: 50%;
+padding-left: 270px; */
+/* padding-left: 20px;
+width: 100%;
+height: 25px;
+border: none;
+outline: none; */
+width: 100%;
+height: 100%;
+border: none;
+text-decoration: none;
+background-color: #cccc;
+
+}
+.cmd-inputimg{
+    width: 35%;
+    /* position: absolute; */
+    /* right: 33%; */
+}
+
+.input__img{
+    height: 32px;
+    width: 32px;
+}
+
+
 .whats-in-mind{
-    width: 85%;
+width: 100%;
     background-color: white;
-    border: grey 1px solid;
+
+    border-radius: 10px;
     margin: 0 auto;
 }
 
@@ -336,25 +422,25 @@ position: relative;
     padding-left: 15px;
 
 }
-.commanding-input{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-}
-.comment-bar-1{
-    width: 80%;
-}
 
 .whats-in-mind-header{
     display: flex;
     justify-content: center;
     border-bottom: 1px solid grey;
+
 }
+.whats-in-mind-header img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
 
 .whats-in-mind-footer{
     display: flex;
-    justify-con
-    tent: space-evenly;
+    justify-content: space-evenly;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -384,7 +470,7 @@ position: relative;
 /* .whats-in-mind-footer img{} */
 
 .create-room{
-    width: 85%;
+
 display: flex;
 align-items: center;
 }
@@ -394,7 +480,8 @@ display: flex;
 align-items: center;
 width: 100%;
 margin-top: 20px;
-border: 1px solid gray;
+
+border-radius: 10px;
 background-color: #FFFFFF;
 }
 
@@ -426,13 +513,19 @@ border-radius: 10%;
     background-color: #F2F2F2;
     outline: none;
     border: none; */
-    width: 25%;
+    display: flex;
+    align-items: center;
+    width: 26%;
     border-radius: 10px;
     height: 20%;
     margin-left: 15px;
     background-color: #F2F2F2;
     outline: none;
     padding: 10px;
+
+}
+button div{
+    padding-left: 6px;
 }
 .room-contact span{
     font-size: 40px;
@@ -440,13 +533,11 @@ border-radius: 10%;
     right: 15px;
 }
 .upcoming-container
-
 {
-
-    width: 85%;
     display: flex;
 margin-top: 20px;
-    border: 1px solid gray;
+background-color: #FFFFFF;
+    border-radius:  10px 10px 0px 0px;
     justify-content: space-between;
     align-items: center;
 }
@@ -473,7 +564,7 @@ border-radius: 50%;
 font-size: large;
 }
 .upcoming-content {
-    border: 1px solid gray;
+
     display: flex;
     flex-direction: column;
     margin-left: 15px;
@@ -490,7 +581,7 @@ font-size: large;
 .upcomiing-timing img{
     padding-left: 5px;
 }
-.image-post{ width: 85%;
+.image-post{
     }
 .image-post img{
     width: 100%;
@@ -503,10 +594,11 @@ font-size: large;
     display: inline-block;
     background-color: #F0F2F5;
     width: 25%;
-    border: 1px solid black;
+
 }
 .birthday{
     border-bottom: 1px solid gray;
+    padding: 10px;
 }
 
 .birthday div{
@@ -526,27 +618,33 @@ font-size: large;
         height: 25px;
     margin-left: 15px;}
 
-
+    .birthday-person{
+        font-size: 18px;
+            padding-left: 10px;
+    }
 .birthday div span{
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 5px;
 
 }
 .contact-header{
     display: flex;
 padding: 10px;
     justify-content: space-between;
+    align-items: center;
+    font-size: larger;
 }
 
 .contact-list{
 margin-top: 0;
 list-style-type: none;
 padding-left: 0;
+border-bottom: 1px solid gray;
 }
 .contact-list li{
     display: flex;
     align-items: center;
-
+font-size: 18px;
 }
 .contact-list li img{
     border-radius: 50%;
@@ -558,8 +656,16 @@ padding-left: 0;
 .contact-list li span{
 
 }
+.contact-footer div{
+    display: flex;
+    margin-left: 10px;
+}
 .contact-footer h4{
-padding: 20px;
+    margin: 0 auto;
+padding-left: 20px;
+
+
+
 }
 .contact-new-group{
     display: flex;
@@ -573,7 +679,7 @@ margin-left: 10px;
 .common-dp img
 {
     margin: 5px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }

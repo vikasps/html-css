@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facebook</title>
+    <title>Facebooks</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -13,7 +13,7 @@
     <nav>
 
         <div class="nav-left">
-            <div class="common-dp"><img src="./asset/svgexport-1.svg" alt="fb-logo" /></div>
+            <div><img src="./asset/svgexport-1.svg" alt="fb-logo" /></div>
             <div class="serach-bar-1">
                 <input type="text" class="search-bar" placeholder="Search Facebook" />
             </div>
@@ -33,10 +33,16 @@
             </div>
             <div class="profile-name">Vikas</div>
 
-            <img class="nav-shrink-1" src="./asset/svgexport-8.svg" alt="additional" />
+            <!-- <img class="nav-shrink-1" src="./asset/svgexport-8.svg" alt="additional" /> -->
+            <div class="create-bg"><span class="create"></span></div>
             <img class="nav-shrink-1" src="./asset/svgexport-9.svg" alt="messenger" />
             <img class="nav-shrink-1" src="./asset/svgexport-8.svg" alt="bell" />
-            <img class="nav-shrink-1" src="./asset/svgexport-9.svg" alt="more" />
+            <div class="account-bg"> <span class="account"></span></div>
+            <!-- <img class="nav-shrink-1" src="./asset/svgexport-9.svg" alt="more" /> -->
+
+            <!-- <span class="messenger"></span>
+            <span class="notification"> </span> -->
+
         </div>
     </nav>
     <section class="section-bar">
@@ -111,27 +117,26 @@
                 <img src="./asset/drunken-monkey.jpg" alt="status">
                 <img src="./asset/drunken-monkey.jpg" alt="status">
                 <img src="./asset/drunken-monkey.jpg" alt="status">
-                <span>&#10162;</span>
+                <div class="status-see-more-bg"><span class="status-see-more"></span></div>
             </div>
-            <div class="fb-scroll-section">
+            <div class="fb-scroll-section-1">
                 <div class="whats-in-mind">
                     <div class="whats-in-mind-header"> <img src="./asset/vikas.jpg" alt="fb-logo" />
-                        <input type="text" class="whats-in-mind-text" placeholder="Whats-in-mind, Vikas" /></div>
+                        <input type="text" class="whats-in-mind-text" placeholder="What's on your mind.vikas? " /></div>
                     <div class="whats-in-mind-footer">
                         <!-- <div><img src="./asset/event.png" alt="event" /><span>Live-video</span></div> -->
-                        <button><img src="./asset/event.png" alt="event" /><span>Live-video</span></button>
-
-                        <button><img src="./asset/event.png" alt="event" /><span>Photo/video</span></button>
-
-                        <button><img src="./asset/event.png" alt="event" /><span>Feeeling/Activity</span></button>
-
+                        <button><span class="video"></span><span
+                                class="whats-in-mind-footer-text">Live-video</span></button>
+                        <button><span class="photo-video"></span><span
+                                class="whats-in-mind-footer-text">Photo/video</span></button>
+                        <button><span class="feeling-activity"></span><span
+                                class="whats-in-mind-footer-text">Feeling/Activity</span></button>
                     </div>
                 </div>
                 <div class="create-room">
                     <div class="room-contact">
-                        <button><img class="video-image" src="./asset/video-camera.png" alt="video-camera" />
-                            <div> Create
-                                Room</div>
+                        <button><span class="create-room-pic"></span>
+                            <div> Create Room</div>
                         </button>
                         <div class="room-contact-imgs">
                             <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
@@ -140,14 +145,18 @@
                             <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
                             <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
                             <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
-                            <span>&#10162;</span>
+                            <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
+                            <img class="room-contact-pic" src="./asset/vikas.jpg" alt="vikas" />
                         </div>
+                        <div class="room-contact-see-more-bg"><span class="room-contact-see-more"></span></div>
+
                     </div>
                 </div>
-
+            </div>
+            <div class="fb-scroll-section-2">
                 <div class="upcoming-container">
                     <div class="left-upcoming">
-                        <div> <img src="./asset/vikas.jpg" alt="dp"></div>
+                        <div> <img class="common" src="./asset/vikas.jpg" alt="dp"></div>
 
                         <div class="upcoming-content">
                             <div> <span>Praveen Rajan </span> updated his profile picture.</div>
@@ -161,46 +170,55 @@
                     <img src="./asset/iron_man_comic_art-wallpaper-1920x1200 (1).jpg" alt="posted">
                 </div>
                 <div class="like-status">
-                    <img class="like-img1" src="./asset/thumb-up.png" alt="thumb-up">
+                    <img class="like-img1 " src="./asset/thumb-up.png" alt="thumb-up">
                     <img class="like-img2" src="./asset/heart.png" alt="heart">
                     <img class="like-img3" src="./asset/laughing.png" alt="lsuighing">
-                    <div class="liked-people"> people who liked and reacted for above post</div>
+                    <div class="liked-people"> People who liked and reacted for above post</div>
                 </div>
 
                 <div class="like-comment">
-                    <button class="posting-button "> <img src="./asset/thumb-up.png" alt="like"> Like</button>
-                    <button class="posting-button "> <img src="./asset/comment.png" alt="comment"> Comment</button>
-                    <button class="posting-button"> <img src="./asset/comment.png" alt="comment">Share</button>
-
+                    <!-- <button class="posting-button "> <img src="./asset/thumb-up.png" alt="like"> <span>Like</span>
+                    </button>
+                    <button class="posting-button "> <img src="./asset/comment.png" alt="comment">
+                        <span>Comment</span></button>
+                    <button class="posting-button"> <img src="./asset/comment.png" alt="comment">
+                        <span>Share</span></button> -->
+                    <button class="posting-button "><span class="like-button"></span><span>Like</span></button>
+                    <button class="posting-button "><span class="comment-button"></span><span>comment</span></button>
+                    <button class="posting-button "><span class="share-button"></span><span>share</span></button>
 
 
                 </div>
                 <div class="comment-section"><img src="./asset/vikas.jpg" alt="vikas">
                     <div class="comment-text"><span>vinoth kumar</span>
-                        <div>hai machi</div>
+                        <div>Hai machi</div>
                         <div> <a href="like"></a>
                             <a href="reply"></a> </div>
                     </div>
                 </div>
                 <div class="comment-views">
-                    <p>view more 8 comments</p>
+                    <p>View more 8 comments</p>
                 </div>
 
 
                 <div class="commanding-input">
-                    <div class="cm-img"><img class="cmd-img" src="./asset/vikas.jpg" alt="vikas" /></div>
+                    <img class="cmd-img" src="./asset/vikas.jpg" alt="vikas" />
 
 
                     <div class="comment-bar">
                         <div class="cmd-inputbox">
-                            <input type="text" class="comment-bar-1" placeholder="write a comment" /></div>
+                            <input type="text" class="comment-bar-1" placeholder="Write a comment" /></div>
 
 
                         <div class="cmd-inputimg">
-                            <img class="input__img" src="./asset/thumb-up.png" alt="like">
+                            <!-- <img class="input__img" src="./asset/thumb-up.png" alt="like">
                             <img class="input__img" src="./asset/heart.png" alt="heart">
                             <img class="input__img" src="./asset/thumb-up.png" alt="camera">
-                            <img class="input__img" src="./asset/thumb-up.png" alt="watch">
+                            <img class="input__img" src="./asset/thumb-up.png" alt="watch"> -->
+                            <span class="cmd-smiley"></span>
+                            <span class="cmd-camera"></span>
+                            <span class="cmd-gif"></span>
+                            <span class="cmd-pic"></span>
                         </div>
                     </div>
                 </div>
@@ -216,10 +234,13 @@
             </div>
             <div class="contact">
                 <div class="contact-header">
-                    <span>Contact</span>
-                    <div class="contact-icons"> <img src="./asset/friends.png" alt="friends" />
+                    <span class="contact-heading">Contact</span>
+                    <!-- <div class="contact-icons"> <img src="./asset/friends.png" alt="friends" />
                         <img src="./asset/friends.png" alt="friends" />
-                        <img src="./asset/friends.png" alt="friends" /></div>
+                        <img src="./asset/friends.png" alt="friends" /></div> -->
+                    <div class="contact-icons"><span class="video-call-1"></span>
+                        <span class="magnify-glass-1"></span>
+                        <span class="see-more-1"></span></div>
                 </div>
                 <ul class="contact-list">
                     <li>
@@ -261,10 +282,11 @@
                 </ul>
                 <div class="contact-footer">
                     <h4>Group Conversation</h4>
-                    <div> <img class="contact-new-group" src="./asset/event.png" alt="creat-new-group">
-                        <p>create new group</p>
+                    <div class="group-add"> <span class="group-adding-bg"></span><span class="group-adding"></span>
                     </div>
+                    <p>create new group</p>
                 </div>
+            </div>
 
             </div>
         </section>

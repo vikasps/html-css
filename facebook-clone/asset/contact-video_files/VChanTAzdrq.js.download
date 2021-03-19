@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["3FZ4e"]); }
+
+__d("MWChatSettingsOpenInApp.bs",["fbt","ix","CometMenuItem.react","MWThread_DEPRECATED.bs","XMessengerDotComDesktopLaunchAppInterstitialControllerRouteBuilder","fbicon","react","uuid"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j=i||b("react");function a(a){a=j.useContext(b("MWThread_DEPRECATED.bs").context);var c=b("uuid")();if(a!==void 0)return j.jsx(b("CometMenuItem.react"),{primaryText:g._("Open in app"),href:b("XMessengerDotComDesktopLaunchAppInterstitialControllerRouteBuilder").buildUri({funnel_session_id:c,thread:a.VAL}).setDomain("www.messenger.com").setProtocol("https").toString(),icon:b("fbicon")._(h("505620"),20),testid:"messenger_settings_open_in_app"});else return null}c=a;f.make=c}),null);

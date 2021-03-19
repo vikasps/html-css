@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["hVTYC"]); }
+
+__d("StoriesUtils",["ExecutionEnvironment"],(function(a,b,c,d,e,f){"use strict";var g=500,h={};a=function(a){h[a]==null&&(h[a]=window.atob(a).split(":")[2]);return h[a]};f.cardID2ThreadID=a;c=function(a){return!b("ExecutionEnvironment").canUseDOM?!1:a<g};f.shouldResizeToViewStories=c}),null);
+__d("StoriesSuspensePauseContext",["react"],(function(a,b,c,d,e,f){"use strict";var g;a=g||b("react");c={isPaused:!1,setPause:function(a,b){}};d=a.createContext(c);e.exports=d}),null);
+__d("useUserSignalsImpressionLogging",["react","requireDeferred","useSinglePartialViewImpression"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=g||b("react"),i=b("requireDeferred")("UserSignalsClientImpressionEventFalcoEvent");function a(a,c,d,e){var f=h.useCallback(function(){i.onReady(function(b){b.log(function(){return{attribution_id_v2:a,default_user_signal_instance_id:c,default_user_signal_type_id:d,event:e}})})},[a,c,d,e]);return b("useSinglePartialViewImpression")({onImpressionStart:f})}}),null);

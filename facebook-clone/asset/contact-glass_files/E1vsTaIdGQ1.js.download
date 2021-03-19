@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["BqZSU"]); }
+
+__d("PublicEventCometRSVPButtonStrings",["fbt","react"],(function(a,b,c,d,e,f,g){"use strict";f.Going=a;f.Interested=c;f.Remove=d;f.Purchase=e;var h;h||b("react");function a(a){return a==="GOING"?g._("Going"):g._("Going")}function c(a){return a==="WATCHED"?g._("Interested"):g._("Interested")}function d(a){return a==="WATCHED"?g._("Not interested"):g._("Not Going")}function e(){return g._("Purchase")}}),null);
+__d("EventsActionsSrCoreFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1845787");c=b("FalcoLoggerInternal").create("events_actions_sr_core",a);e.exports=c}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WCYdB"]); }
+
+__d("useSproutPromotionTooltip",["CometComposerPromotionContext","react","useCometPulse"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=g||b("react");function a(){var a=h.useContext(b("CometComposerPromotionContext")),c=h.useState((a==null?void 0:a.isSproutPromoted)===!0),d=c[0],e=c[1];c={position:"above"};a=(a=a==null?void 0:(a=a.subtitle)==null?void 0:a.toString())!=null?a:"";var f={arrowStyle:"inset",hasCloseButton:!0,label:a,position:"above",type:"accent"};a={"aria-label":a,overlayDisabled:!1};f=b("useCometPulse")({calloutProps:f,contextualLayerProps:c,pulseProps:a});c=f.targetRef;a=f.view;return{hidePulse:function(){return e(!1)},isPulseVisible:d,targetRef:c,view:a}}}),null);

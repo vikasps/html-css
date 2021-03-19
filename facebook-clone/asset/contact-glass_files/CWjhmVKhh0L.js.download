@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["8Hpxu"]); }
+
+__d("cometComposerMultilingualIsActive",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){a=(a=a.multilingualData)==null?void 0:a.otherDialects;return a==null?!1:Object.keys(a).length>0}}),null);

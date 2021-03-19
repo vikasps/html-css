@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["d19AP"]); }
+
+__d("MWJewelMessengerAppLink.react",["fbt","CometLink.react","TetraText.react","XMessengerDotComDesktopLaunchAppInterstitialControllerRouteBuilder","react"],(function(a,b,c,d,e,f,g){"use strict";e.exports=a;var h,i=h||b("react");function a(a){var c;a=a.onClick;c=(c=b("XMessengerDotComDesktopLaunchAppInterstitialControllerRouteBuilder").buildUri({}).setDomain("messenger.com"))==null?void 0:(c=c.setProtocol("https"))==null?void 0:c.toString();return i.jsx("div",{className:"pzdrnzhu ihqw7lf3 jyxxhhb5",children:i.jsx(b("TetraText.react"),{align:"center",color:"blueLink",type:"bodyLink3",children:i.jsx(b("CometLink.react"),{href:c,onClick:a,children:g._("Open the Messenger app")})})})}}),null);

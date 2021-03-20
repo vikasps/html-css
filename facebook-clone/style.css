@@ -9,13 +9,33 @@
 .section-bar {
   display: flex;
 }
+.new-msg{
+
+
+    margin: 0px;
+    padding: 16px;
+    height: 15px;
+    width: 15px;
+    /* margin: 0 5px; */
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.new-msg-create{
+  display: inline-block;
+  width: 24px;
+  height: 21px;
+  background: url(./asset/sprite-5.png) -2px 725px;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   padding-bottom: 2px;
   /* border-bottom: 1px solid #FFFFFF; */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .nav-left {
@@ -215,7 +235,7 @@ ul li span {
   height: 27px;
 }
 .short-cut-group span {
-  padding-left: px;
+  padding-left: 10px;
 }
 .short-cut-header h4 {
   width: 50%;
@@ -335,7 +355,7 @@ ul li span {
 .like-status {
   display: flex;
   margin-top: 2px;
-  padding: 10px
+      padding: 10px
   background-color: #ffffff;
   /* padding-right: 3px; */
   position: relative;
@@ -645,6 +665,7 @@ input::-webkit-input-placeholder {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #ffffff;
+  padding: 10px
 }
 
 .room-contact-imgs {
@@ -697,7 +718,7 @@ border-radius: 10%;
   font-weight: bold;
 }
 button div {
-  padding-left: 5px;
+  padding-left: 1px;
 }
 .room-contact-see-more-bg {
   margin: 0px;
@@ -861,6 +882,7 @@ align-items:flex-start; */
 
 .contact-footer div {
   display: flex;
+  flex-direction: row;
   margin-left: 10px;
 }
 .contact-footer h4 {
@@ -874,24 +896,37 @@ align-items:flex-start; */
 .contact-new-group p {
   margin-left: 10px;
 }
-
+.group-add{
+  display: flex;
+}
 .group-adding {
   display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url(./asset/sprite-2.png) 23px -1543px;
+  width: 18px;
+  height: 22px;
+    background: url(./asset/sprite-2.png) 0 -565px;
+
 }
 .group-adding-bg {
-  margin: 0px;
-  padding: 11px;
-  height: 15px;
-  /* margin: 0 5px; */
-  border-radius: 50%;
-  background-color: #d8dadf;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 25px;
+height: 25px;
+    border-radius: 50%;
+    background-color:#ffffff
+
 }
 .common-dp img {
   margin: 5px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
+}
+.group-container{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.contact-footer p{
+  margin-left: 10px;
 }

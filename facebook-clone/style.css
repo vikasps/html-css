@@ -34,7 +34,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2px;
+  padding-bottom: 7px;
   /* border-bottom: 1px solid #FFFFFF; */
 }
 
@@ -194,7 +194,7 @@ nav {
 
 .left-side-section li img {
   border-radius: 50%;
-  width: 30x;
+  width: 30px;
   height: 30px;
 }
 
@@ -335,7 +335,8 @@ ul li span {
 .status-card span {
   font-size: 40px;
   position: absolute;
-  right: 20px;
+  right: 16px;
+  bottom: 13px;
 }
 
 .fb-scroll-section-1 {
@@ -356,7 +357,7 @@ ul li span {
   display: flex;
   margin-top: 2px;
       padding: 10px
-  background-color: #ffffff;
+      background-color: #ffffff;
   /* padding-right: 3px; */
   position: relative;
   /* border: 1px solid gray; */
@@ -441,6 +442,7 @@ align-items: center; */
   align-items: center;
   justify-content: flex-start;
   background-color: #ffffff;
+  padding-top: 10px;
 }
 .comment-text {
   /* border: 1px solid gray; */
@@ -452,7 +454,7 @@ align-items: center; */
   border-radius: 50%;
   padding-right: 10px;
   margin-left: 3px;
-  margin-top: 15px;
+
 }
 .comment-section span {
   font-size: large;
@@ -584,6 +586,7 @@ outline: none; */
   border-bottom: 1px solid #e4e6eb;
   height: 50px;
   margin-top: 10px;
+  padding-bottom: 5px;
 }
 input,
 input::-webkit-input-placeholder {
@@ -671,7 +674,7 @@ input::-webkit-input-placeholder {
 .room-contact-imgs {
   width: 75%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -913,7 +916,7 @@ justify-content: center;
 width: 25px;
 height: 25px;
     border-radius: 50%;
-    background-color:#ffffff
+    background-color:#ffffff;
 
 }
 .common-dp img {

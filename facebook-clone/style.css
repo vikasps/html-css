@@ -674,7 +674,7 @@ input::-webkit-input-placeholder {
 .room-contact-imgs {
   width: 75%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px;

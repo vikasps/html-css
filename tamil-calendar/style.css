@@ -1,0 +1,113 @@
+.calendar {
+  width: 500px;
+}
+.calendar-top {
+  width: 100%;
+}
+.date {
+  font-size: 100px;
+  text-align: center;
+}
+
+.calendar-bottom {
+  border: 1px solid red;
+  display: flex;
+}
+.bottom-left {
+  width: 75%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-right {
+  width: 25%;
+  margin-left: 3px;
+  border: 1px solid black;
+}
+.cointainer-1 {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cointainer-1 div:first-child {
+}
+.container-number {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.container-2 {
+  width: 35%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.container-2 div:first-child {
+  background-color: black;
+  color: white;
+}
+.container-2 div:last-child {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.bottom-right-list {
+  list-style-type: none;
+  margin: 0 7px;
+  padding: 0;
+}
+
+.bottom-right-list li {
+  font-size: 11px;
+}
+.bottom-right-list li:first-child {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+.bottom-right-list li:first-child img {
+  background-color: white;
+}
+.container-center {
+  font-size: 10px;
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.container-center div:first-child {
+  border-right: 1px solid black;
+}
+.container-center span {
+  margin-left: 10px;
+}
+.container-bottom {
+  font-size: 10px;
+  display: flex;
+  font-weight: 525;
+}
+.container-bottom img {
+  width: 10px;
+  height: auto;
+}
+.left-side {
+  /* margin-left: 10px; */
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.left-side div {
+  border-bottom: 1px solid black;
+}
+.center-side {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.right-side {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+}

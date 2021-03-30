@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.sans-font {
+  font-family: "Open Sans", sans-serif;
+}
+.read-more {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.career-opportunities {
+  border: 1px solid #cbcaca;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+  padding: 50px;
+}
+.content-section {
+  display: flex;
+  align-items: center;
+}
+.c-o-image {
+  text-align: center;
+}
+.c-o-image-1 {
+  width: 50%;
+}
+.c-o-content {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 35px;
+  color: #494949;
+  width: 100%;
+}
+.c-o-heading {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.c-o-heading span:last-child {
+  font-weight: bold;
+}
+/* .float-teller-opportunities {
+  border: 1px solid #cbcaca;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  padding: 0 88px;
+} */
+.background {
+  border: 1px solid #cbcaca;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  padding: 0 88px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  border-bottom: 1px solid #cbcaca;
+}
+.posted-date {
+  font-size: 10px;
+}
+.posted-content {
+  font-size: 12px;
+}
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+.conclusion {
+  line-height: 25px;
+  font-size: 13px;
+}
+.conclusion div {
+  margin: 10px;
+}
+button {
+  width: 18%;
+  border: none;
+  padding: 10px;
+  background-color: #ea911e;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  margin-bottom: 10px;
+}

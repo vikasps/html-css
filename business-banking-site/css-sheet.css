@@ -1,0 +1,134 @@
+html,
+body {
+    font-family: "Open Sans", sans-serif
+}
+
+.main-width {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.bg-color {
+    background-color: #F1F1F1;
+}
+
+.business-banking {
+    border: solid 1px #DEDEDE;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.business {
+    font-weight: bold;
+}
+
+.contents {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    color: rgb(98, 101, 106);
+    font-size: 17px;
+}
+
+.commercial {
+    border: solid 1px #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.comm-sections {
+    width: 21.5%;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.comm-section-left {
+    width: 21.5%;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+.comm-section-right {
+    width: 21.5%;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
+
+.comm-section-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 100px;
+}
+
+.comm-heading {
+    font-size: 25px;
+    color: #277E47;
+    min-height: 70px;
+    padding-top: 20px;
+}
+
+.comm-content {
+    min-height: 100px;
+    color: rgb(98, 101, 106);
+    line-height: 25px;
+    padding-bottom: 53px;
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.learn-text {
+    color: rgb(51, 51, 51);
+}
+
+.learn-img {
+    padding-left: 5px;
+}
+
+.comm-image {
+    width: 100%;
+    height: 240px;
+}
+
+.joan {
+    border: solid 1px #DEDEDE;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.joan-chen-image {
+    padding-left: 40px;
+}
+
+.joan-quotes {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(98, 101, 106);
+}
+
+.quotation {}

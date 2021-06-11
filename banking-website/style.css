@@ -100,3 +100,70 @@ button {
   outline: none;
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: lightblue;
+  }
+  .background {
+    padding: 0px 25px;
+  }
+  h3 {
+    text-align: center;
+    line-height: 25px;
+  }
+  .read-more {
+    justify-content: center;
+  }
+  .content-section {
+    display: block;
+  }
+
+  .c-o-image {
+  }
+
+  .float-teller-opportunities {
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  .float-teller-opportunities h3 {
+    text-align: center;
+
+    line-height: 30px;
+  }
+  .posted-date {
+    text-align: center;
+    font-size: 10px;
+  }
+  .posted-content {
+    font-size: 15px;
+  }
+  .posted-date .posted-content {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .part_time_teller {
+    line-height: 25px;
+  }
+  /* .branch_manager {
+
+  } */
+
+  .conclusion {
+    font-size: 15px;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1014px) {
+    width: 50%;
+  }
+}

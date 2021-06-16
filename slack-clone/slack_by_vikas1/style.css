@@ -1,0 +1,249 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.home_nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(63, 14, 64, 255);
+}
+
+.home_nav-bar-img {
+  width: 20px;
+  height: 20px;
+}
+.home_nav-bar_input {
+}
+.home_nav-bar-input-img {
+  width: 20px;
+  height: 20px;
+
+  /* position: absolute; */
+}
+.home_nav-bar_searchbar {
+  width: 400px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(67, 30, 68, 255);
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.home_nav-bar_top-right {
+  background-color: white;
+  text-align: right;
+}
+.home_nav-bar_top-right:first-child {
+  border-right: 1px solid gray;
+}
+.home_nav-bar_top-right-img {
+  width: 20px;
+  height: 20px;
+}
+
+.flexing {
+  display: flex;
+}
+.home_left_dropdown {
+  background-color: rgba(63, 14, 64, 255);
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+  width: 15%;
+  height: 100%;
+  color: white;
+  font-size: 15px;
+}
+.home_left_dropdown_imgs {
+  width: 10px;
+  height: 10px;
+  padding-left: 10px;
+}
+
+.home_left_dropdown_subheading {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.home_left_dropdown_title {
+  display: flex;
+  justify-content: space-between;
+}
+.home_left_dropdown_title_icon {
+  width: 10px;
+  height: 10px;
+  padding-left: 5px;
+  color: white;
+}
+.home_left_dropdown_edit {
+  margin: 0px;
+  padding: 5px;
+  height: 15px;
+  width: 15px;
+
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.home_left_dropdown_edit-img {
+  width: 15px;
+  height: 15px;
+}
+/* .home_left_dropdown-content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid white;
+}
+*/
+.home_left_dropdown-content {
+  list-style: none;
+  padding-left: 3px;
+}
+
+.home_left_dropdown-content li {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+.home_left_dropdown-content li img {
+  width: 30px;
+  height: 30px;
+}
+.home_left_dropdown-content-learn {
+  background-color: rgba(67, 30, 68, 255);
+}
+.flexing-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.home_static_status {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(238, 240, 242, 255);
+  /* background-color: white; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.home_static_status_sub {
+  width: 30%;
+  background-color: white;
+}
+
+.home_static_status_sub-totalorders {
+  display: flex;
+}
+
+.total-no {
+  padding-top: 8px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.column-1 {
+  color: lawngreen;
+}
+.column-2 {
+  color: yellow;
+}
+.column-3 {
+  color: red;
+}
+
+.total-order-title {
+  padding-left: 20px;
+}
+.total-title {
+  font-weight: 700;
+}
+
+.total-duration {
+  color: grey;
+}
+.flexing-4 {
+  width: 100%;
+  display: flex;
+}
+
+.home_chatbox {
+  width: 75%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.home_chatbox_tasksbar {
+}
+
+.home_chatbox_tasksbar_header {
+  width: 60%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background: #eef0f2;
+  border-bottom: 1px solid #eef0f2;
+}
+.home_chatbox_tasksbar_title {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.home_chatbox_tasksbar_dropdown {
+}
+.home_chatbox_tasksbar_dropdown_hamburger {
+  width: 40px;
+  height: 40px;
+}
+
+.home_chatbox_tasksbar_task {
+  display: flex;
+  margin-top: 10px;
+}
+
+.home_chatbox_tasksbar_task::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 60px;
+  border-radius: 0 12px 12px 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: yellow;
+  margin-right: 40px;
+}
+.checkBox {
+  margin-top: 23px;
+  margin-left: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.details p {
+  margin: 1px;
+  padding: 1px;
+}
+.task_header {
+  font-weight: 600;
+}
+.task_author {
+  color: gray;
+}
+.task_status {
+  margin-left: 15px;
+  padding: 5px 10px 5px 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}

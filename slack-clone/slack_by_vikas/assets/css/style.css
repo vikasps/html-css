@@ -1,0 +1,580 @@
+:root {
+  --primary: #3e183f;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  font-family: "Roboto", sans-serif;
+}
+
+.green {
+  color: green;
+}
+.lightgreen {
+  color: lightgreen;
+}
+.red {
+  color: red;
+}
+.gold {
+  color: gold;
+}
+
+.white {
+  color: white;
+}
+
+.pink {
+  color: pink;
+}
+
+.violet {
+  color: violet;
+}
+.bg-gold {
+  background-color: gold;
+}
+
+.bg-violet {
+  background-color: violet;
+}
+.bg-skyblue {
+  background-color: lightblue;
+}
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-gray {
+  background-color: gray;
+}
+.bg-gold {
+  background-color: gold;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.header {
+  /* border: 1px solid #632766; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__search__section {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__search__section span {
+  padding: 0 10px;
+}
+
+.header__search {
+  display: inline-block;
+  border: 1px solid #632766;
+  background-color: var(--primary);
+  margin: 5px;
+  border-radius: 5px;
+  width: 90%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__right span {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.main__left {
+  width: 20%;
+}
+
+.main__left__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-top: 1px solid #632766;
+  border-bottom: 1px solid #632766;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main__left__header__left svg {
+  padding-left: 5px;
+}
+
+.main__left__header__right span {
+  display: inline-block;
+  background-color: #fff;
+  width: 36px;
+  height: bg-gray36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.main__left__header__right span svg {
+  color: #000;
+}
+
+.main__left__links {
+  padding: 20px;
+  border-bottom: 1px solid #632766;
+}
+
+.main__left__links__item {
+  color: #bd95be;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.main__left__links__item span {
+  padding-left: 10px;
+}
+
+.main__left__learn {
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #512653;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.main__left__learn__title {
+  color: #ccc;
+}
+
+.main__left__learn__list {
+  list-style: none;
+  padding-left: 0;
+}
+.main__left__learn__list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main__left__learn__list li span {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.main__right {
+  width: 80%;
+  background-color: white;
+}
+
+.main__right__top {
+  padding: 20px;
+  background-color: #eff0f2;
+}
+
+.main__right__top__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.main__right__top__container__box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 33%;
+}
+
+.main__right__top__container__box__number {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main__right__top__container__box__right {
+  padding-left: 20px;
+}
+
+.main__right__top__container__box__right__title {
+  font-weight: bold;
+}
+
+.main__right__top__container__box__right__subTitle {
+  color: #ccc;
+}
+
+.main__right__bottom {
+  display: flex;
+}
+
+.main__right__bottom__left {
+  width: 70%;
+}
+
+.main__right__bottom__left__tasks {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.main__right__bottom__left__tasks__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.main__right__bottom__left__tasks__list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+}
+
+.main__right__bottom__left__tasks__list__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main__right__bottom__left__tasks__list__left span.line {
+  display: inline-block;
+  height: 40px;
+  width: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main__right__bottom__left__tasks__list__left input {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.main__right__bottom__left__tasks__list__left .names {
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.main__right__bottom__left__tasks__list__left .names .names__title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.main__right__bottom__left__tasks__list__left .names .names__subTitle {
+  color: #a7a7a7;
+}
+
+.main__right__bottom__left__lists {
+  padding-top: 10px;
+}
+
+.main__right__bottom__left__list {
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.main__right__bottom__left__list__icon svg {
+  color: #e89431;
+  font-size: 28px;
+  background-color: #fbf4ec;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.main__right__bottom__left__list__data {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.main__right__bottom__left__list__data span {
+  color: #a7a7a7;
+}
+
+.main__right__bottom__left__textBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.main__right__bottom__left__textBox__placeholder {
+  color: #ccc;
+  min-height: 50px;
+}
+
+.main__right__bottom__left__textBox__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__right__bottom__right {
+  width: 30%;
+}
+
+.main__right__bottom__right__title {
+  padding: 10px 20px;
+  background-color: #f8f9fb;
+  color: #000;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main__right__bottom__right__team__images {
+  padding: 10px 20px;
+  border-left: 1px solid #ccc;
+  display: flex;
+}
+.main__right__bottom__right__team__images img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+  border: 3px solid #fff;
+}
+
+.main__right__bottom__right__team__images span {
+  display: inline-block;
+  border: 1px dashed #a8d1df;
+  color: #a8d1df;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  background-color: #f8f9fb;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main__right__bottom__right__file__list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.main__right__bottom__right__file__list li {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+.main__right__bottom__right__file__list span {
+  padding-left: 15px;
+  color: #8f9092;
+  font-size: 14px;
+}
+
+.main__right__bottom__right__chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.main__right__bottom__right__chat img {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.main__right__bottom__right__chat__text {
+  width: 90%;
+  margin: 0 10px;
+}
+
+.main__right__bottom__right__chat__text__content {
+  background-color: #dff3fe;
+  font-size: 12px;
+  padding: 10px;
+  line-height: 20px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+
+.main__right__bottom__right__chat__text__time {
+  font-size: 10px;
+}
+
+/*.task */
+
+.task__rejected {
+  padding: 4px 8px;
+  margin-left: 5px;
+  background-color: #d84e70;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.task__new {
+  padding: 6px 10px;
+  margin-left: 5px;
+  background-color: #88d3fb;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.task__latest {
+  padding: 4px 10px;
+  margin-left: 5px;
+  background-color: #53bb86;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.latest__task__align {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__right__bottom__right__team__add {
+  position: relative;
+  left: -60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 1330px) {
+  .main__right__bottom__right__team__images img {
+    width: 30px;
+  }
+  .mob-tasks__list__right{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1125px) {
+  .main__right__bottom__right__team__images img {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .main__right__bottom__right__team__images img {
+    width: 28px;
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  .main__right__bottom__right__team__images img {
+    width: 27px;
+  }
+
+  @media only screen and (max-width: 956px) {
+    .main__right__bottom__right__team__images img {
+      width: 20px;
+    }
+   .main__right__bottom__right__file__list li{
+      padding: 5px 10px;
+    }
+
+    .main__right__bottom__right__file__list span{
+      padding-left: 0;
+    }
+
+    @media only screen and (max-width: 956px) {
+      .main__right__bottom__right__file__list span{
+        font-size: 12px;
+      }
+    }
+
+  }
+
+
+  /* @media only screen and (max-width: 898px) {
+    .main__right__bottom__right__team__images img {
+      width: 24px;
+    }
+
+    @media only screen and (max-width: 882px) {
+      .main__right__bottom__right__team__images img {
+        width: 20px;
+} */
+
+
+@media only screen and (max-width: 768px) {
+  .header__search__section {
+    width: 100%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .main__left {
+    width: auto;
+  }
+
+  .main__right {
+    width: 100%;
+  }
+
+  .main__right__bottom {
+    flex-direction: column;
+  }
+
+  .mob-tasks__list__right {
+    width: 100%;
+  }
+
+  .main__right__top__container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main__right__top__container__box {
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .main__right__top__container__box__right {
+    padding: 0;
+  }
+
+  .main__right__bottom__left {
+    width: 100%;
+  }
+
+  .main__right__bottom__left__tasks {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main__right__bottom__right {
+    width: 100%;
+  }
+}

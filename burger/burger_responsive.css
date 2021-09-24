@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 776px){
+.header__cntr{}
+.header{
+
+    width: 93%;
+}
+.header__left{
+    width: 100%;
+    padding: 15px;
+
+}
+.header__left span{}
+.header__right{
+    display: none;
+}
+.header__right__list{}
+.header__right__list li{}
+
+.header__right__list li a{}
+
+
+/* <!-- banner starts here --> */
+.banner__cntr{}
+.banner{}
+.banner__img{
+    width: 100%;
+
+    height: 100%;
+}
+.banner__heading{
+    position: absolute;
+    top: 116px;
+    left: 23px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: lightslategray;
+    font-weight: 100;
+}
+
+/* <!-- banner ends here --> */
+
+
+.sub__banner__1__img{ display: none;}
+
+
+
+.sub__banner__1__cnt {
+    padding-right: 0px;
+    width: 100%;
+    display: flex;
+
+}
+/* .sub__banner__1__cnt__title__respn{
+    display: block;
+}
+.sub__banner__1__cnt h2,
+.sub__banner__1__cnt h4{
+    display: none;
+} */
+.sub__banner__1__cnt__title {
+    width: 357px;}
+    .sub__banner__1__cnt__subtitle {
+    letter-spacing: 4px;}
+.sub__banner__1{
+    display: flex;
+flex-direction: column;
+}
+
+.sub__banner__2__img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+}

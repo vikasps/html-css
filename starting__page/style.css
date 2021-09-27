@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,9 +15,11 @@ body {
 }
 
 .bg {
-  /* background: url('https://images.unsplash.com/photo-1576161787924-01bb08dad4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80')
+  background: url("https://images.unsplash.com/photo-1576161787924-01bb08dad4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80")
+    no-repeat center center/cover;
+  /* background: url("https://oppidanlibrary.com/wp-content/uploads/2017/06/Free-Welcome-July-2017-Wallpapers.jpg")
     no-repeat center center/cover; */
-    background: url('https://oppidanlibrary.com/wp-content/uploads/2017/06/Free-Welcome-July-2017-Wallpapers.jpg') no-repeat center center/cover;   
+
   position: absolute;
   top: -30px;
   left: -30px;
@@ -30,4 +32,8 @@ body {
 .loading-text {
   font-size: 50px;
   color: #fff;
+}
+.hai {
+  background-color: navy;
+  padding: 40pc;
 }

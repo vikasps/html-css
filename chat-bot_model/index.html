@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="pop_up_container">
+        <ul class="pop_up">
+            <li class="pop_up_cnt_qstn "><span>qustion Lorem, ipsum</span> </li>
+            <li><a class="pop_up_cnt " href="#"><span>qqqqqqqqqqqqqqqqqqq</span> </a></li>
+            <li><a class="pop_up_cnt " href="#"><span>qqqqqqqqqqqqqqqqqqq</span> </a></li>
+            <li><a class="pop_up_cnt " href="#"><span>kore dofef hn9ofh e hqfer kore dofef hn9ofh e hqfer kore dofef
+                        hn9ofh e
+                        hqfer</span></a>
+            </li>
+            <li><a class="pop_up_cnt " href="#"><span>qqqqqqqqqqqqqqqqqqq</span> </a></li>
+            <li><a class="pop_up_cnt " href="#"> <span> sLorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                        amet
+                        ducimus accusamus non eius modi harum, eaque laborum ea voluptas, iste commodi exercitationem
+                        unde,
+                        ad consequatur quaerat reprehenderit omnis dignissimos?</span> </a></li>
+        </ul>
+        <div class="pop_content "><span class="pop_up_btn"></span> </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".pop_content").click(function () {
+                $(".pop_up_btn").toggleClass("pop_down_btn");
+                $(".pop_up").toggleClass("pop_up_1");
+                $(".pop_content").toggleClass("pop_content_border");
+            });
+        });
+    </script>
+</body>
+
+</html>

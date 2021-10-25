@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        @keyframes placeHolderShimmer {
+            0% {
+                background-position: -468px 0
+            }
+
+            100% {
+                background-position: 468px 0
+            }
+        }
+
+        .cat_animatedBackground {
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-name: placeHolderShimmer;
+            animation-timing-function: linear;
+            background: #f6f7f8;
+            background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+            background-size: 800px 104px;
+            height: 72px;
+            position: relative;
+            margin: 15px;
+            transform: translateY(75%);
+        }
+
+        .cat_imagePlaceholder {
+            /* width: 160px; */
+            width: 80px;
+        }
+
+        .cat_contentPlaceholder {
+            /* width: 200px; */
+            width: 40%;
+            height: 48px;
+        }
+
+        .cat_backgroundMasker {
+            background: #fff;
+            position: absolute;
+        }
+
+        /* Every thing below this is just positioning */
+
+        .cat_backgroundMasker.headerTop,
+        .cat_backgroundMasker.headerBottom,
+        .cat_backgroundMasker.subheaderBottom {
+            top: 0;
+            left: 40px;
+            right: 0;
+            height: 10px;
+        }
+
+        .cat_backgroundMasker.headerLeft,
+        .cat_backgroundMasker.subheaderLeft,
+        .cat_backgroundMasker.headerRight,
+        .cat_backgroundMasker.subheaderRight {
+            top: 10px;
+            left: 40px;
+            height: 8px;
+            width: 10px;
+        }
+
+        .cat_backgroundMasker.headerBottom {
+            top: 18px;
+            height: 6px;
+        }
+
+        .cat_backgroundMasker.subheaderLeft,
+        .cat_backgroundMasker.subheaderRight {
+            top: 24px;
+            height: 6px;
+        }
+
+
+        .cat_backgroundMasker.headerRight,
+        .cat_backgroundMasker.subheaderRight {
+            width: auto;
+            left: 60%;
+            right: 0;
+        }
+
+        .cat_backgroundMasker.subheaderRight {
+            left: 46%;
+        }
+
+        .cat_backgroundMasker.subheaderBottom {
+            top: 30px;
+            height: 10px;
+        }
+
+        .cat_backgroundMasker.contentTop,
+        .cat_backgroundMasker.contentSecondLine,
+        .cat_backgroundMasker.contentThirdLine,
+        .cat_backgroundMasker.contentSecondEnd,
+        .cat_backgroundMasker.contentThirdEnd,
+        .cat_backgroundMasker.contentFirstEnd {
+            top: 40px;
+            left: 0;
+            right: 0;
+            height: 6px;
+        }
+
+        .cat_backgroundMasker.contentTop {
+            height: 20px;
+        }
+
+        .cat_backgroundMasker.contentFirstEnd,
+        .cat_backgroundMasker.contentSecondEnd,
+        .cat_backgroundMasker.contentThirdEnd {
+            width: auto;
+            left: 76%;
+            right: 0;
+            top: 60px;
+            height: 8px;
+        }
+
+        .cat_backgroundMasker.contentSecondLine {
+            top: 68px;
+        }
+
+        .cat_backgroundMasker.contentSecondEnd {
+            left: 84%;
+            top: 74px;
+        }
+
+        .cat_backgroundMasker.contentThirdLine {
+            top: 82px;
+        }
+
+        .cat_backgroundMasker.contentThirdEnd {
+            left: 60%;
+            top: 88px;
+        }
+
+        /* Image Placeholder */
+
+        .cat_imageLeft {
+            left: 0;
+            height: 72px;
+            /* width: 30%; */
+        }
+
+        .cat_imageRight {
+            right: 0;
+            height: 72px;
+            /* width: 11%; */
+        }
+
+        .cat_sun {
+            top: 21%;
+            left: 14%;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+        }
+
+        .cat_smallMountain:after {
+            top: 21px;
+            left: 18px;
+            content: "";
+            position: absolute;
+            border: 20px solid transparent;
+            border-bottom: 20px solid #fff;
+        }
+
+        .cat_bigMountain:after {
+            top: 4px;
+            left: 39px;
+            content: "";
+            position: absolute;
+            border: 21px solid transparent;
+            border-bottom: 35px solid #fff;
+        }
+
+        .cat_img-1 {
+            display: flex;
+        }
+
+        .cat_img-2 {
+            width: 18%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <div class="cat_img-1">
+        <div class="cat_img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+        <div class="img-2">
+            <div class="cat_animatedBackground cat_imagePlaceholder">
+                <div class="cat_backgroundMasker cat_sun"></div>
+                <div class="cat_backgroundMasker cat_smallMountain"></div>
+                <div class="cat_backgroundMasker cat_bigMountain"></div>
+                <div class="cat_backgroundMasker cat_imageLeft"></div>
+                <div class="cat_backgroundMasker cat_imageRight"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

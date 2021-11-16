@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #960011;
+  height: 100vh;
+}
+h1 {
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 40px;
+}

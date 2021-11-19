@@ -5,7 +5,7 @@
   background: white;
   border-radius: 35px;
 }
-
+*{background-color:red}
 .button_outer_1 {
   border: 1px solid #d8d8d8;
   padding: 10px;

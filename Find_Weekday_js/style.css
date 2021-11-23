@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 8px;
+  outline: none;
+  color: #386770;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+body {
+  background-color: #1b0000;
+  background: lightgoldenrodyellow;
+}
+
+.main {
+  height: max-content;
+  width: 55%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}

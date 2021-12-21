@@ -1,0 +1,180 @@
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animatedBackground {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  height: 96px;
+  position: relative;
+  margin: 15px;
+  transform: translateY(75%);
+}
+.imagePlaceholder {
+  width: 260px;
+}
+.contentPlaceholder {
+  width: 500px;
+}
+.backgroundMasker {
+  background: #fff;
+  position: absolute;
+}
+
+/* Every thing below this is just positioning */
+
+.backgroundMasker.headerTop,
+.backgroundMasker.headerBottom,
+.backgroundMasker.subheaderBottom {
+  top: 0;
+  left: 40px;
+  right: 0;
+  height: 10px;
+}
+
+.backgroundMasker.headerLeft,
+.backgroundMasker.subheaderLeft,
+.backgroundMasker.headerRight,
+.backgroundMasker.subheaderRight {
+  top: 10px;
+  left: 40px;
+  height: 8px;
+  width: 10px;
+}
+
+.backgroundMasker.headerBottom {
+  top: 18px;
+  height: 6px;
+}
+
+.backgroundMasker.subheaderLeft,
+.backgroundMasker.subheaderRight {
+  top: 24px;
+  height: 6px;
+}
+
+.backgroundMasker.headerRight,
+.backgroundMasker.subheaderRight {
+  width: auto;
+  left: 60%;
+  right: 0;
+}
+
+.backgroundMasker.subheaderRight {
+  left: 46%;
+}
+
+.backgroundMasker.subheaderBottom {
+  top: 30px;
+  height: 10px;
+}
+
+.backgroundMasker.contentTop,
+.backgroundMasker.contentSecondLine,
+.backgroundMasker.contentThirdLine,
+.backgroundMasker.contentSecondEnd,
+.backgroundMasker.contentThirdEnd,
+.backgroundMasker.contentFirstEnd {
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 6px;
+}
+
+.backgroundMasker.contentTop {
+  height: 20px;
+}
+
+.backgroundMasker.contentFirstEnd,
+.backgroundMasker.contentSecondEnd,
+.backgroundMasker.contentThirdEnd {
+  width: auto;
+  left: 76%;
+  right: 0;
+  top: 60px;
+  height: 8px;
+}
+
+.backgroundMasker.contentSecondLine {
+  top: 68px;
+}
+
+.backgroundMasker.contentSecondEnd {
+  left: 84%;
+  top: 74px;
+}
+
+.backgroundMasker.contentThirdLine {
+  top: 82px;
+}
+
+.backgroundMasker.contentThirdEnd {
+  left: 60%;
+  top: 88px;
+}
+
+/* Image Placeholder */
+
+.imageLeft {
+  left: 0;
+  height: 96px;
+  width: 30%;
+}
+
+.imageRight {
+  right: 0;
+  height: 96px;
+  width: 30%;
+}
+.sun {
+  top: 10%;
+  left: 35%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+/*
+  .smallMountain{
+    top: 84%;
+    left: 42.7%;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+  }
+  
+  .bigMountain{
+    top: 60%;
+    left: 56%;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+  }
+  */
+
+.smallMountain:after {
+  top: 50px;
+  left: 82px;
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+}
+.bigMountain:after {
+  top: 20px;
+  left: 100px;
+  content: "";
+  position: absolute;
+  border: 35px solid transparent;
+  border-bottom: 35px solid #fff;
+}

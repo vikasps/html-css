@@ -1,50 +1,47 @@
-
-
-
-body { 
-  
+body {
   marging: 0;
 }
-#marquee { 
+#marquee {
   margin-top: 3rem;
-	perspective: 500px;
-	font-size: 0;
-	
+  perspective: 500px;
+  font-size: 0;
 }
 
 @keyframes crawl {
-	to { transform: translateX(-80%); }
+  to {
+    transform: translateX(-80%);
+  }
 }
 
 #marquee div {
-	display: inline-block; 
-	height: 12rem; width: 30rem;
+  display: inline-block;
+  height: 12rem;
+  width: 30rem;
   overflow: hidden;
   font-size: 8rem;
-	position: relative;
+  position: relative;
 }
-#marquee div:first-of-type { 
-	background: #e5233e;
-	transform-origin: top right;
-	transform: rotateY(-10deg);
-	color: #fff;
+#marquee div:first-of-type {
+  background: #e5233e;
+  transform-origin: top right;
+  transform: rotateY(-10deg);
+  color: #fff;
 }
 #marquee div:last-of-type {
-	background: #248C46;
-	transform-origin: top left;
-	transform: rotateY(15deg);
-	color: #f8c9d9;
+  background: #e5233e;
+  transform-origin: top left;
+  transform: rotateY(15deg);
+  color: #f8c9d9;
 }
 
-  #marquee div span { 
-    position: absolute; 
-    width: 400%;	
-    line-height: 1.4;
-    transform: translateX(30%);
-    animation: crawl 14s linear infinite;
-  }
-  #marquee div:first-of-type span {
-    text-shadow: 4px 0px 4px rgba(0,0,0,0.3);
-    animation-delay: 3.175s;
-  }
-
+#marquee div span {
+  position: absolute;
+  width: 400%;
+  line-height: 1.4;
+  transform: translateX(30%);
+  animation: crawl 14s linear infinite;
+}
+#marquee div:first-of-type span {
+  text-shadow: 4px 0px 4px rgba(0, 0, 0, 0.3);
+  animation-delay: 3.175s;
+}

@@ -6,7 +6,7 @@
 }
 * {
   font-family: "Open Sans", sans-serif;
-background-color:#e5e9e5;
+  background-color: #e5e9e5;
 }
 .read-more {
   display: flex;
@@ -24,7 +24,7 @@ background-color:#e5e9e5;
 }
 .career-opportunities {
   border: 1px solid #cbcaca;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   margin-top: 40px;
   padding: 50px;
 }
@@ -61,7 +61,7 @@ background-color:#e5e9e5;
 } */
 .background {
   border: 1px solid #cbcaca;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   margin-top: 50px;
   padding: 0 88px;
   line-height: 18px;
